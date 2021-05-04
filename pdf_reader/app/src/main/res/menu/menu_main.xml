@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="ca.uwaterloo.cs349.pdfreader.MainActivity">
+
+    <item android:title="@string/action_touch" android:id="@+id/action_touch"/>
+    <item android:title="@string/action_draw" android:id="@+id/action_draw"/>
+    <item android:title="@string/action_highlight" android:id="@+id/action_highlight"/>
+    <item android:title="@string/action_erase" android:id="@+id/action_erase"/>
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">pdfreader</string>
+    <string name="action_touch">Touch</string>
+    <string name="action_draw">Draw</string>
+    <string name="action_highlight">Highlight</string>
+    <string name="action_erase">Erase</string>
+</resources>
