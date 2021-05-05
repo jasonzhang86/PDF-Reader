@@ -1,13 +1,11 @@
-Yilin Zhang
-20758134 y2785zha
-openjdk version "11.0.8" 2020-07-14
-SDKs:   Android API 30 Platform,   Java SDK 11
-macOS 10.14.6 (MacBook Pro 2019)
-pdf used: shannon1948.pdf
-Module used: Pixel C Tablet
+# PDF Reader
+PDF Reader is an Android application that allows a user to read and annotate a document on an Android tablet. <br>
+
+The user can swipe to switch between pages, pinch to zoom in/out and drag to move the page around. <br>
+The user can also undo/redo changes made on each page (such as annotations). The undo/redo stack is independent for each page. <br>
 
 
-Developer Journal:
+Developer's Journal:
 
 0. IMPORTANT: Must build - clean the project before running the application, otherwise app generates a new BuildConfig file. (According to piazza @616 something is wrong with the grade config file, but I've re-downloaded the starter code and it seems that this problem comes with the starter code). To solve this, run Build - clean before running the app.
      
@@ -15,7 +13,7 @@ Developer Journal:
      
 1. Toolbar is on the top right corner (Touch, Draw, Highlight and Erase).
 
-2. All testing are done using the shannon1948.pdf. We use 55 as the upper limit for the number of pages of the pdf file.
+2. All testing are done using the shannon1948.pdf. I use 55 as the upper limit for the number of pages of the pdf file.
 
 3. Eraser: It seems that the eraser doesn't work as well under high speed. Normal speed is fine; user is not required to purposely slow down their action, but a really fast swipe (like less than 0.1 second) might cause eraser to malfunction.
 
@@ -27,7 +25,8 @@ Developer Journal:
 
 7. Zoom/Pan: Zoom & Pan are only avaiable in Touch mode. One finger activates pan and two fingers (pinch) activates Zoom.
 
-
-
-
-
+openjdk version "11.0.8" 2020-07-14 <br>
+SDKs:&nbsp;&nbsp;Android API 30 Platform,&nbsp;&nbsp;Java SDK 11 <br>
+macOS 10.14.6 (MacBook Pro 2019) <br>
+pdf used: shannon1948.pdf <br>
+Module used: Pixel C Tablet <br>
